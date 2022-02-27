@@ -87,20 +87,20 @@ cod,sigla,nome,descricao
 319,REQ,Requerimento de Retirada de proposição,"Retirada de proposição com parecer (Art. 104, c/c art. 114, V e VII, RICD)"
 321,REQ,Requerimento de Extinção do regime de urgência (matéria com urgência votada),"Extinção do regime de urgência (Art. 156, c/c art. 104, RICD)"
 322,REQ,Requerimento de Tramitação de proposição em regime de prioridade,
-323,REQ,"Requerimento de quebra de interstício para inclusão de matéria prevista no art. 17, I, s (Agenda Mensal) na Ordem do Dia","Dispensa de interstício para inclusão na Ordem do Dia (Art. 150, § único, RICD)"
+323,REQ,Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia,"Dispensa de interstício para inclusão na Ordem do Dia (Art. 150, § único, RICD)"
 324,REQ,Requerimento de Destaque para votação em separado de parte de proposição (DVS),
 327,RPD,Requerimento de Retirada da OD de proposições com pareceres favoraveis,
-328,RPD,Requerimento de Retirada da OD de proposição nela incluída,"Retirada da OD de proposição nela incluída (Art. 117, VI, RICD)"
+328,RPD,Requerimento de Retirada de Pauta,"Retirada da OD de proposição nela incluída (Art. 117, VI, RICD)"
 329,RPD,Requerimento de Adiamento da Discussão,"Adiamento de discussão nos termos do art. 177, c/c art. 101, II,2, RICD."
 330,RPD,Requerimento de Dispensa da Discussão,"Dispensa da discussão (Art. 101, II, 2, RICD)"
 331,RPD,Requerimento de Encerramento da Discussão,"Encerramento de discussão (Art. 178, § 2º, c/c art. 101, II, 2, RICD)"
-332,RPD,Requerimento de Votação pelo processo nominal,"Votação por determinado processo (Art. 101, II, 3, c/c art. 189, § 3º, RICD)"
+332,RPD,Requerimento de Votação pelo Processo Nominal,"Votação por determinado processo (Art. 101, II, 3, c/c art. 189, § 3º, RICD)"
 333,RPD,Requerimento de Votação parcelada da proposição,"Votação em globo ou parcelada (Art. 101, II, 3, c/c art. 189, § 3º RICD)"
-334,RPD,Requerimento de Verificação de votação,"Verificação de votação (Art. art. 185, §5º, RICD)"
+334,RPD,Requerimento de Verificação de Votação,"Verificação de votação (Art. art. 185, §5º, RICD)"
 335,RPD,Requerimento de Votação por escrutínio secreto,"Votação por escrutínio secreto (Art. 188, II, RICD)"
 336,RPD,Requerimento de Adiamento da Votação,"Adiamento da votação nos termos do Art. 193º c/c 117, X do RICD."
-337,RPD,Requerimento de Preferência para votação ou discussão de uma proposição,"Preferência para votação ou discussão de uma proposição (Art. 160, RICD)"
-338,RPD,Requerimento de Dispensa do avulso da redação final,
+337,RPD,Requerimento de Preferência,"Preferência para votação ou discussão de uma proposição (Art. 160, RICD)"
+338,RPD,Requerimento de Dispensa do Avulso da Redação Final,
 339,REQ,Requerimento de Reconstituição de proposição,
 340,REQ,Requerimento de Inclusão na Ordem do Dia de proposição (Durante o período ordinário),
 341,REQ,Requerimento de Publicação de Parecer de Comissão aprovado,
@@ -381,7 +381,7 @@ Os recursos existente em RCN serão transferidos para este novo código."
 685,CAE,Relatório do CAE,
 686,REQ,Requerimento de Participação ou Realização de Eventos fora da Câmara,
 687,REQ,Requerimento de Reapresentação de Projeto de Lei Rejeitado na mesma Sessão Legislativa,
-688,REQ,Requerimento de Inclusão de Matéria Extra-Pauta na Ordem do Dia das Comissões,
+688,REQ,Requerimento de Inclusão de Matéria para Apreciação Imediata na Comissão,
 689,OFN,Ofício (CN) de Informações de Execução das Obras do PAC,
 690,OFS,Ofício do Senado Federal,
 691,OFS,Ofício do Senado Federal de Fundo Constitucional de Financiamento ,
@@ -459,13 +459,13 @@ Os recursos existente em RCN serão transferidos para este novo código."
 873,EMP,Emenda de Plenário à MPV (Ato Conjunto 1/20),
 874,RPD,Requerimento de Discussão por Partes,
 875,RPD,Requerimento de quebra de insterstício para verificação de votação,
-876,RPD,Requerimento de inversão de pauta,
+876,REQ,Requerimento de Inversão de Pauta,
 877,RPD,Requerimento de Encerramento da Discussão de Projeto de Código,
 878,REQ,"Requerimento de Urgência (art. 154, I ou III, do RICD)",
 887,ECN,Emenda (CN),Emenda a Projeto do Congresso Nacional
 888,DTS,Destaque Simples,
-889,RPD,Requerimento de Retirada de Proposição de Iniciativa Individual em Plenário,
-890,RPD,Requerimento de Retirada de Proposição de Iniciativa Coletiva em Plenário,
+889,RPD,Requerimento de Retirada de Tramitação de Proposição de Iniciativa Individual em Sessão ou Reunião,
+890,RPD,Requerimento de Retirada de Tramitação de Proposição em Sessão ou Reunião,
 891,PRLP,Parecer Preliminar de Plenário,
 892,RPD,Requerimento de Adiamento da Discussão de Matéria Urgente,
 895,AJECN,Ajuste de Emenda Orçamentária (CN),Ajuste de Emenda Orçamentária do Congresso Nacional
@@ -482,3 +482,7 @@ Os recursos existente em RCN serão transferidos para este novo código."
 1007,QO,Questão de Ordem,
 1008,APM,Complemento de Apoiamento,
 1009,CFIS,"Relatório de Atividades do Comitê de Avaliação, Fiscalização e Controle de Execução Orçamentária",
+1010,REQ,Requerimento para Alteração da Ordem dos Trabalhos,
+1011,DTQ,Destaque de Emenda,
+1012,DTQ,Destaque de Preferência,
+1013,DTQ,Destaque para Proposição Autônoma,
