@@ -19,25 +19,25 @@ Sugiro que os notebooks sejam lidos de acordo com o pipeline de uma análise de 
              │         └─────────────┘ └─────────────┘
              │
 ┌─────────┐  │
-│         │  │         ┌────────────┐ ┌────────────┐ ┌───────────┐ ┌────────────┐
-│         │  │         │            │ │            │ │           │ │            │
-│Coleta de│  │         │Tratamento  │ │Tratamento  │ │Tratamento │ │Analise     │
-│dados    ├──┼─Propo ──┤de dados    ├─┤de dados    ├─┤de dados   ├─┤de dados    │
-│         │  │ legis   │legislaturas│ │proposicoes │ │criacao    │ │proposicoes │
-│         │  │         │            │ │legislativas│ │vocabulario│ │legislativas│
-└─────────┘  │         │            │ │            │ │           │ │            │
-             │         └────────────┘ └────────────┘ └───────────┘ └────────────┘
+│         │  │         ┌────────────┐ ┌────────────┐ ┌───────────┐ ┌──────────┐ ┌────────────┐
+│         │  │         │            │ │            │ │           │ │Classifi- │ │            │
+│Coleta de│  │         │Tratamento  │ │Tratamento  │ │Tratamento │ │cador de  │ │Analise     │
+│dados    ├──┼─Propo ──┤de dados    ├─┤de dados    ├─┤de dados   ├─┤proposi-  ├─┤de dados    │
+│         │  │ legis   │legislaturas│ │proposicoes │ │criacao    │ │coes      │ │proposicoes │
+│         │  │         │            │ │legislativas│ │vocabulario│ │legislati-│ │legislativas│
+└─────────┘  │         │            │ │            │ │           │ │vas       │ │            │
+             │         └────────────┘ └────────────┘ └───────────┘ └──────────┘ └────────────┘
              │
-             │         ┌──────────┐ ┌───────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌───────────┐
-             │         │          │ │           │ │          │ │          │ │          │ │Prever     │
-             │         │Tratamento│ │ Tratamento│ │Tratamento│ │Tratamento│ │Tratamento│ │percentual │
-             └─Modelo──┤de dados  ├─┤ de dados  ├─┤de dados  ├─┤de dados  ├─┤de dados  ├─┤proposi-   │
-               aprend  │legisla-  │ │ candida-  │ │proposi-  │ │criacao   │ │predicao  │ │coes em    │
-               maquina │turas     │ │ turas     │ │coes      │ │vocabu-   │ │          │ │favor de   │
-                       │          │ │ eleitas   │ │legisla-  │ │lario     │ │          │ │grupos hist│
-                       │          │ │           │ │tivas     │ │          │ │          │ │margina    │
-                       │          │ │           │ │          │ │          │ │          │ │lizados    │
-                       └──────────┘ └───────────┘ └──────────┘ └──────────┘ └──────────┘ └───────────┘ 
+             │         ┌──────────┐ ┌───────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐
+             │         │          │ │           │ │          │ │          │ │          │
+             │         │Tratamento│ │ Tratamento│ │Tratamento│ │Tratamento│ │Classifi- │
+             └─Modelo──┤de dados  ├─┤ de dados  ├─┤de dados  ├─┤de dados  ├─┤cador de  │
+               aprend  │legisla-  │ │ candida-  │ │proposi-  │ │criacao   │ │proposi-  │
+               maquina │turas     │ │ turas     │ │coes      │ │vocabu-   │ │coes      │
+                       │          │ │ eleitas   │ │legisla-  │ │lario     │ │legislati-│
+                       │          │ │           │ │tivas     │ │          │ │vas       │
+                       │          │ │           │ │          │ │          │ │          │
+                       └──────────┘ └───────────┘ └──────────┘ └──────────┘ └──────────┘
 ```
 
 Links para os notebooks:
