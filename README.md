@@ -29,56 +29,57 @@ Além disso, ressalta-se, também, que não foi realizado um estudo aprofundado 
 ## Sugestão de leitura
 Os notebooks devem ser lidos de acordo com o seguinte fluxo:
 ```
-                 ┌────────────────────┐
-                 │  Coleta de dados   │
-                 └─────────┬──────────┘
-                           │
-                ┌──────────┴───────────┐
-                │ Tratamento de dados  │
-                │ candidaturas eleitas │
-                └──────────┬───────────┘
-                           │
-                ┌──────────┴───────────┐
-                │ Tratamento de dados  │
-                │ legislaturas         │
-                └──────────┬───────────┘
-                           │
-             ┌─────────────┴────────────────┐
-             │                              │
- ┌───────────┴──────────┐      ┌────────────┴─────────┐
- │ Tratamento de dados  │      │ Analise dados        │
- │ proposicoes          │      │ candidaturas eleitas │
- │ legislativas         │      └──────────────────────┘
- └──────────┬───────────┘
-            │
- ┌──────────┴───────────┐
- │     Criacao de       │
- │     vocabulario      │
- └──────────┬───────────┘
-            │
- ┌──────────┴───────────┐
- │   Classificador de   │
- │   proposicoes        │
- │   legislativas       │
- └──────────┬───────────┘
-            │
- ┌──────────┴───────────┐
- │ Analise dados        │
- │ proposicoes          │
- │ legislativas         │
- └──────────────────────┘
-
+                ┌────────────────────┐
+                │  Coleta de dados   │
+                └─────────┬──────────┘
+                          │
+               ┌──────────┴───────────┐
+               │ Tratamento de dados  │
+               │ candidaturas eleitas │
+               └──────────┬───────────┘
+                          │
+               ┌──────────┴───────────┐
+               │ Tratamento de dados  │
+               │ legislaturas         │
+               └──────────┬───────────┘
+                          │
+            ┌─────────────┴────────────────┐
+            │                              │
+┌───────────┴──────────┐      ┌────────────┴─────────┐
+│ Tratamento de dados  │      │ Analise dados        │
+│ proposicoes          │      │ candidaturas eleitas │
+│ legislativas         │      └──────────────────────┘
+└──────────┬───────────┘
+           │
+┌──────────┴───────────┐
+│ Tratamento de dados  │
+│ criacao de           │
+│ vocabulario          │
+└──────────┬───────────┘
+           │
+┌──────────┴───────────┐
+│ Modelo aprendizado   │
+│ de maquina           │
+│ classificador de     │
+│ proposicoes          │
+│ legislativas         │
+└──────────┬───────────┘
+           │
+┌──────────┴───────────┐
+│ Analise dados        │
+│ proposicoes          │
+│ legislativas         │
+└──────────────────────┘
 ```
 
 Links para os notebooks:
-- [Coleta de dados](coleta.ipynb)
-- [Tratamento de dados - candidaturas eleitas](tratamento-dados/tratamento-candidaturas-eleitas.ipynb)
-- [Tratamento de dados - legislaturas](tratamento-dados/tratamento-legislaturas.ipynb)
-- [Tratamento de dados - proposicões legislativas](tratamento-dados/tratamento-proposicoes.ipynb)
-- [Tratamento de dados - criação de vocabulário](tratamento-dados/criacao-vocabulario.ipynb)
-- [Tratamento de dados - predição](tratamento-dados/tratamento-predicao.ipynb)
 - [Análise de dados - candidaturas eleitas](analise-dados/analise-candidaturas-eleitas.ipynb)
 - [Análise de dados - proposicões legislativas](analise-dados/analise-proposicoes.ipynb)
+- [Coleta de dados](coleta.ipynb)
+- [Tratamento de dados - candidaturas eleitas](tratamento-dados/tratamento-candidaturas-eleitas.ipynb)
+- [Tratamento de dados - criação de vocabulário](tratamento-dados/criacao-vocabulario.ipynb)
+- [Tratamento de dados - legislaturas](tratamento-dados/tratamento-legislaturas.ipynb)
+- [Tratamento de dados - proposições legislativas](tratamento-dados/tratamento-proposicoes.ipynb)
 - [Modelo de aprendizado de máquina - Classificador de proposições legislativas](classifica-proposicoes.ipynb)
 
 ## Licença
