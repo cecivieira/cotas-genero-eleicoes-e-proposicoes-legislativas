@@ -28,36 +28,46 @@ Além disso, ressalta-se, também, que não foi realizado um estudo aprofundado 
 
 ## Sugestão de leitura
 Os notebooks devem ser lidos de acordo com o seguinte fluxo:
-
 ```
-                       ┌─────────────┐ ┌─────────────┐
-                       │             │ │             │
-               Analise │ Tratamento  │ │ Analise     │
-             ┌─Candid ─┤ de dados    ├─┤ de dados    │
-             │ eleitas │ candidaturas│ │ candidaturas│
-             │         │ eleitas     │ │ eleitas     │
-             │         │             │ │             │
-             │         └─────────────┘ └─────────────┘
-             │
-┌─────────┐  │
-│         │  │         ┌───────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────┐
-│         │  │         │           │ │          │ │          │ │          │ │Classifi- │ │        │
-│Coleta de│  │ Analise │Tratamento │ │Tratamento│ │Tratamento│ │Tratamento│ │cador de  │ │Analise │
-│dados    ├──┼─Propo ──┤de dados   ├─┤de dados  ├─┤de dados  ├─┤de dados  ├─┤proposi-  ├─┤de dados│
-│         │  │ legis-  │candida-   │ │legisla-  │ │propo     │ │criacao   │ │coes      │ │propo   │
-│         │  │ lativas │turas      │ │tivas     │ │legisla-  │ │vocabu-   │ │legislati-│ │legisla-│
-└─────────┘  │         │eleitas    │ │          │ │tivas     │ │lario     │ │vas       │ │tivas   │
-             │         └───────────┘ └──────────┘ └──────────┘ └──────────┘ └──────────┘ └────────┘
-             │
-             │
-             │         ┌──────────┐ ┌───────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐
-             │         │Tratamento│ │ Tratamento│ │Tratamento│ │Tratamento│ │Classifi- │
-             └─Modelo──┤de dados  ├─┤ de dados  ├─┤de dados  ├─┤de dados  ├─┤cador de  │
-               aprend  │legisla-  │ │ candida-  │ │proposi-  │ │criacao   │ │proposi-  │
-               maquina │turas     │ │ turas     │ │coes      │ │vocabu-   │ │coes      │
-                       │          │ │ eleitas   │ │legisla-  │ │lario     │ │legislati-│
-                       │          │ │           │ │tivas     │ │          │ │vas       │
-                       └──────────┘ └───────────┘ └──────────┘ └──────────┘ └──────────┘
+                 ┌────────────────────┐
+                 │  Coleta de dados   │
+                 └─────────┬──────────┘
+                           │
+                ┌──────────┴───────────┐
+                │ Tratamento de dados  │
+                │ candidaturas eleitas │
+                └──────────┬───────────┘
+                           │
+                ┌──────────┴───────────┐
+                │ Tratamento de dados  │
+                │ legislaturas         │
+                └──────────┬───────────┘
+                           │
+             ┌─────────────┴────────────────┐
+             │                              │
+ ┌───────────┴──────────┐      ┌────────────┴─────────┐
+ │ Tratamento de dados  │      │ Analise dados        │
+ │ proposicoes          │      │ candidaturas eleitas │
+ │ legislativas         │      └──────────────────────┘
+ └──────────┬───────────┘
+            │
+ ┌──────────┴───────────┐
+ │     Criacao de       │
+ │     vocabulario      │
+ └──────────┬───────────┘
+            │
+ ┌──────────┴───────────┐
+ │   Classificador de   │
+ │   proposicoes        │
+ │   legislativas       │
+ └──────────┬───────────┘
+            │
+ ┌──────────┴───────────┐
+ │ Analise dados        │
+ │ proposicoes          │
+ │ legislativas         │
+ └──────────────────────┘
+
 ```
 
 Links para os notebooks:
