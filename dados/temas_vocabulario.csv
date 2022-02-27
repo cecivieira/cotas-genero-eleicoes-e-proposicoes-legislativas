@@ -1,7 +1,7 @@
 "cod","sigla","nome","descricao"
 34,,"Administração Pública",
-64,,"Agricultura, Pecuária, Pesca e Extrativismo",
-35,,"Arte, Cultura e Religião","territporios obra-de-arte histórico-cultural aleijadinho ancine"
+64,,"Agricultura, Pecuária, Pesca e Extrativismo","assentado assentados assentamento assentamentos assentimento camponês camponesas"
+35,,"Arte, Cultura e Religião","territporios obra-de-arte histórico-cultural aleijadinho ancine audio-visual audiodescrição audiodescritor audiovisua audiovisuais audiovisual candomblé cantadores cantor capoeira capoeiras capoeirista cine cine-clube cineasta cineclube cinefotografia cinegrafista cinema cinemas cinemateca cinematografia cinematografica cinematográfica cinematograficas cinematografico cinematográfico cinematrográfica circense circenses circo hip-hop infanto-juvenil infantojuvenil"
 41,,"Cidades e Desenvolvimento Urbano","natalidade pacificação"
 62,,"Ciência, Tecnologia e Inovação",
 85,,"Ciências Exatas e da Terra",
@@ -12,22 +12,22 @@
 68,,"Direito Constitucional",
 67,,"Direito e Defesa do Consumidor",
 76,,"Direito e Justiça",
-43,,"Direito Penal e Processual Penal","libidinoso, prisão-albergue, desarmamento, sexual._, _discriminação, carcerária"
-44,,"Direitos Humanos e Minorias","família mei-mulher ong maternidade maternos bisneto cuidadora lésbica paritaria _acessibilidade _mulher abolição abolicionista afro afro-brasileira afro-brasileiro afro-descendente afro-descendentes afrobrasileira afrodescendente afrodescendentes aldeia aldeias caboclo prato preto"
-40,,"Economia","afroempreendedorismo microempregador salario-educação financiamento-educação _auxílio-doença _microempreendedor _microempresa .bolsa-atleta afro-empreendedorismo"
-46,,"Educação","pré-escola educacioanal educaçãoe prouni creche didaticos _educação _ensino _escola _estudante .educação alfabetização alfabetizado analfabetismo analfabeto analfabetos"
+43,,"Direito Penal e Processual Penal","libidinoso prisão-albergue desarmamento sexual._ _discriminação carcerária assaltante assassino carceraria carcerária carcerária.hiv carcerário carcere cárcere carceireiro ciberbullying feminicício feminicídio genocidio genocídio infanticídio penintenciária penintenciário"
+44,,"Direitos Humanos e Minorias","família mei-mulher ong maternidade maternos bisneto cuidadora lésbica paritaria _acessibilidade _mulher abolição abolicionista afro afro-brasileira afro-brasileiro afro-descendente afro-descendentes afrobrasileira afrodescendente afrodescendentes aldeia aldeias caboclo prato preto alimenticia alimentícia alimentícias ameríndias antifas antifascista antirracismo apartheid ativismo bisavós bissexuais bissexual cego cegos feminismo gay gays geriatria geriátrica geriátrico homossexual homossexualidade homossexualismo homotransfobia indigena indígena indìgena indigenas indígenas índigenas índígenas indio índio indios índios ìndios infancia infância intersexo intersexual intersexualidade lactante lactente lactentes mulher mulher-guerreira mulher. mulher._ mulheres mulhr mulhre mulhser negra negrão negras negrinho negro negros orfanato orfanatos orfão órfão orfãos órfãos órfãos_ órfãs paternidade paternidde quilombo quilombola quilombolas quilombos raciais racial sexismo socioafetiva socioafetivo surda-cega surdo surdo-mudo "
+40,,"Economia","afroempreendedorismo microempregador salario-educação financiamento-educação _auxílio-doença _microempreendedor _microempresa .bolsa-atleta afro-empreendedorismo ambulantes"
+46,,"Educação","pré-escola educacioanal educaçãoe prouni creche didaticos _educação _ensino _escola _estudante .educação alfabetização alfabetizado analfabetismo analfabeto analfabetos pre-escola pré-escola pre-escolar pré-escolar"
 54,,"Energia, Recursos Hídricos e Minerais",
 39,,"Esporte e Lazer",
 51,,"Estrutura Fundiária",
 70,,"Finanças Públicas e Orçamento",
-72,,"Homenagens e Datas Comemorativas",
+72,,"Homenagens e Datas Comemorativas","zumbi"
 66,,"Indústria, Comércio e Serviços",
-48,,"Meio Ambiente e Desenvolvimento Sustentável","ambeintais agroecologia agroecológica agroecologico agroecológico agroecólogo"
+48,,"Meio Ambiente e Desenvolvimento Sustentável","ambeintais agroecologia agroecológica agroecologico agroecológico agroecólogo caatiba caatinga"
 74,,"Política, Partidos e Eleições",
-52,,"Previdência e Assistência Social","auxílio-gás"
+52,,"Previdência e Assistência Social","auxílio-gás auxílio-adoção auxílio-alimentação auxílio-creche auxílio-cuidador auxílio-dependência auxilio-desemprego auxílio-desemprego auxilio-doença auxílio-doença auxílio-educação auxílio-emprego auxílio-esporte auxílio-financeiro auxilio-funeral auxílio-funeral auxílio-funerário auxílio-gás auxílio-inclusão auxilio-invalidez auxílio-invalidez auxilio-maternidade auxílio-maternidade auxilio-moradia auxílio-moradia auxilio-natalidade auxílio-natalidade auxílio-pecuniário auxilio-reclusão auxílio-reclusão auxílio-saúde auxílio-temporário auxílio-transitório auxilio-transporte auxílio-transporte auxílio-vítima auxílio-vulnerabilidade bolsa-alfabetização bolsa-alimentação bolsa-artista bolsa-atleta bolsa-auxílio bolsa-creche bolsa-educação bolsa-emprego bolsa-estiagem bolsa-família bolsa-formação bolsa-medicamento bolsa-permanência bolsa-renda bolsa-saúde bolsa-trabalho bolsa-tutoria bolsa-universidade financiamento-educação licença-cuidador licença-maternidade licença-médica licença-paternidade licença-premio licença-prêmio seguro-desemprego seguro-doença"
 53,,"Processo Legislativo e Atuação Parlamentar",
-55,,"Relações Internacionais e Comércio Exterior",
-56,,"Saúde","gestação nascituro demência psicanalise subnutrição antidepressivo obstetrícia psicotropicas lactação gêmeo psicológicos profilaxia endometriose abortivo abortivos aborto absorvente absorventes acoolemia aid aidetico aids alcoolatra alcoólatra alcoolemia alcoolismo alcoólotra aleitamento alzheimer amamentação"
-58,,"Trabalho e Emprego","empregdor sinidicais"
+55,,"Relações Internacionais e Comércio Exterior","asilado asilar asilo"
+56,,"Saúde","gestação nascituro demência psicanalise subnutrição antidepressivo obstetrícia psicotropicas lactação gêmeo psicológicos endometriose abortivo abortivos aborto absorvente absorventes acoolemia aid aidetico aids alcoolatra alcoólatra alcoolemia alcoolismo alcoólotra aleitamento alzheimer amamentação anovulatorio anticocepcional anticoncepcional autismo autista bêbado bebê cadeirante canabidiol cão-de-assistência cão-guia cegueira cesárea cesariana cesarianas ginecologico ginecológico gestante gestantes grávida grávidas gravidez hiv lactação menstruação menstrual pré-eclâmpsia pré-natal recem-nascido recém-nascido recèm-nascido récem-nascido sexuais sexual sexual._ sexualemente sexualidade sexualização sexualmente surdocegueira"
+58,,"Trabalho e Emprego","empregdor sinidicais aponsentadoria aposentado aposentadoira aposentadora aposentadoria aposentadorias aposentados aposentdo aposentdoria aposentodoria aposentou aposetadoria apostentadoria aprosentado aprosentadoria assalariada assalariado alario-assiduidade salario-base salário-base salario-beneficio salário-benefício salario-condução salário-contribuição salário-cuidador salario-de-beneficio salário-de-benefício salario-de-contribuição salário-de-contribuição salário-defeso salario-desemprego salário-desemprego salario-educação salário-educação salário-famíia salario-familia salário-familia salário-família salario-maternidade salário-maternidade salario-minimo salário-minimo salário-mínimo salario-minimo-aula salário-paternidade vale-alimentação"
 60,,"Turismo",
-61,,"Viação, Transporte e Mobilidade",
+61,,"Viação, Transporte e Mobilidade","ciclofaifaixa ciclofaixa ciclovia cicloviária cicloviário"

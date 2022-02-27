@@ -1,0 +1,1 @@
+Os dados desta pasta referem-se as proposições legislativas e foram coletados a partir da descarga manual dos arquivos estáticos disponíveis no link https://dadosabertos.camara.leg.br/swagger/api.html#staticfile em 02 dez. 2021.
